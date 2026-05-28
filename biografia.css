@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(45deg, #000000, #ff0000, #0047ab);
+
+    height: 100vh;
+}
+
+
+h1{
+text-align: center;
+color: rgb(225, 0, 255);
+}
+
+a{
+    text-align: center;
+    color: aqua;
+}
+
+p{ text-align: center;
+text-align: center;
+background: rgba(red, green, blue, alpha);
+color: white;
+padding: 50px;
+border-radius: 300px;
+border: 5px solid #0047ab;
+width: 300px;
+}
+
+/* Movimiento del fondo */
+@keyframes moverFondo{
+    0%{
+        background-position: 0px 0px;
+    }
+
+    100%{
+        background-position: 1000px 0px;
+    }
+}
+
+.img{
+    width: 300px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.img:hover{
+    border-color: red;
+}
+
+.img:hover{
+
+transform: rotate(360deg);
+    
+}
